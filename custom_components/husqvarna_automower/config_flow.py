@@ -19,7 +19,7 @@ from homeassistant.const import (
 
 from .const import CONF_PROVIDER, CONF_TOKEN_TYPE, DOMAIN, CONF_API_KEY
 
-_LOGGER = logging.getLogger(__name__)
+# _LOGGER = logging.getLogger(__name__)
 
 
 class HusqvarnaConfigFlowHandler(
